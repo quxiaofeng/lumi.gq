@@ -2,7 +2,9 @@
 <!-- saved from url=(0030)http://lutuotech.com/index.asp -->
 <html xmlns="http://www.w3.org/1999/xhtml" slick-uniqueid="3">
   <script async="" src="./js/analytics.js"></script>
-  <script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script>
+  <script type="text/javascript">
+    window["_gaUserPrefs"] = { ioo : function() { return true; } }
+  </script>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>绿米科技</title>
@@ -38,27 +40,74 @@
       }
       #foot {
         width: 100%;
-        height: 120px;
+        height: 150px;
         line-height: 60px;
         background: #dddddd;
         border-top: 1px solid #ededed;
         font-size: 14px;
         color: #a6a6a6;
-        margin: 0;
+        margin: 30px 0 0;
         font-family: STXihei;
       }
-      #contant{ width:1000px; overflow:hidden; margin:0px auto;}
-      .display{ display:none;}
+      #contant {
+        width: 1000px;
+        overflow: hidden;
+        margin: 0px auto;
+      }
+      .display {
+        display: none;
+      }
 
-      #all{ width:100%; height:2158px; background-repeat:no-repeat;background:#020203 url(./images/attention.jpg?4) center center; overflow:hidden; margin:0; padding:0;}
+      #all {
+        width: 100%;
+        height: 2158px;
+        background-repeat: no-repeat;
+        background: #020203 url(./images/attention.jpg?4) center center;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
 
-      #ico{ width:100px;position:absolute; right:20px; top:390px;_display:none; font-size:12px;}
-      a.ico_a{ display:block; margin-bottom:30px; color:#FFF;}
-      .ico_sh{ width:63px; height:63px; background:url(./images/weiboico.png) 0px 0px; margin:0px auto 6px auto; color:#FFF;}
-      .ico_ppt{ width:63px; height:63px; background:url(./images/weixinico.png) 0px 0px; margin:0px auto 6px auto; color:#FFF;}
-      #ewm{ width:207px; height:213px; background:url(./images/weixin.png); position:absolute; right:100px; top:410px; display:none;}
-      </style>
-      <style type="text/css"></style><script></script><script></script><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+      #ico {
+        width: 100px;
+        position: absolute;
+        right: 20px;
+        top: 390px;
+        _display: none;
+        font-size: 12px;
+      }
+      a.ico_a {
+        display: block;
+        margin-bottom: 30px;
+        color: #FFF;
+      }
+      .ico_sh {
+        width: 63px;
+        height: 63px;
+        background: url(./images/weiboico.png) 0px 0px;
+        margin: 0px auto 6px auto;
+        color:#FFF;
+      }
+      .ico_ppt {
+        width: 63px;
+        height: 63px;
+        background: url(./images/weixinico.png) 0px 0px;
+        margin: 0px auto 6px auto;
+        color: #FFF;
+      }
+      #ewm {
+        width: 207px;
+        height: 213px;
+        background: url(./images/weixin.png);
+        position: absolute;
+        right: 100px;
+        top: 410px;
+        display: none;
+      }
+    </style>
+    <style type="text/css"></style>
+    <style id="style-1-cropbar-clipper">
+      /* Copyright 2014 Evernote Corporation. All rights reserved. */
       .en-markup-crop-options {
           top: 18px !important;
           left: 50% !important;
@@ -74,43 +123,50 @@
     </style>
   </head>
   <body>
-
-<div id="all">
-
-</div>
-<div id="zhaopin">
-人才招募中 简历投递方式：<a href="mailto:hr.job@lumiunited.com"><font color="#b0b90c"><u>hr.job@lumiunited.com</u></font></a>
-</div>
-<div id="foot">深圳绿米联创科技有限公司 Lumi United Technology Co. Ltd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：深圳市南山区高新南四道泰邦科技大厦16楼<br>
-编辑：曲晓峰 托管： GitHub 域名： Freenom</div>
-<div id="ico">
-
-    <a href="http://weibo.com/u/5232002130" class="ico_a" target="_blank" style="opacity: 0.6;">
+    <div id="all"></div>
+    <div id="zhaopin">
+      人才招募中 简历投递方式：<a href="mailto:hr.job@lumiunited.com"><font color="#b0b90c"><u>hr.job@lumiunited.com</u></font></a>
+    </div>
+    <div id="foot">
+      深圳绿米联创科技有限公司 Lumi United Technology Co. Ltd
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      地址：深圳市南山区高新南四道泰邦科技大厦16楼<br>
+      编辑： <a href="http://www.quxiaofeng.me">曲晓峰</a>>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      托管： <a href="http://www.github.com/quxiaofeng/lumi.gq">GitHub</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      域名： <a href="http://www.dot.tk">Freenom</a>
+      </div>
+    <div id="ico">
+      <a href="http://weibo.com/u/5232002130" class="ico_a" target="_blank" style="opacity: 0.6;">
         <div class="ico_sh"></div>
-    </a>
-    <a href="javascript:;" class="ico_a ppt" style="opacity: 0.6;">
+      </a>
+      <a href="javascript:;" class="ico_a ppt" style="opacity: 0.6;">
         <div class="ico_ppt"></div>
-    </a>
-</div>
+      </a>
+    </div>
+    <div id="ewm" style="display: none;"></div>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript">
+      $(function(){
+      	//ico
+      	$('.ico_a').css('opacity','0.6');
+      	$('.ico_a').hover(function(){
+      		$(this).fadeTo(200,0.9);
+      		if($(this).hasClass('ppt')){
+      			$('#ewm').fadeIn(500);
+      		}
+      	},function(){
+      		$(this).fadeTo(200,0.6);
+      		$('#ewm').hide();
+      	});
+      });
+    </script>
 
-<div id="ewm" style="display: none;"></div>
-<script type="text/javascript" src="./js/jquery.js"></script>
-<script type="text/javascript">
-$(function(){
-	//ico
-	$('.ico_a').css('opacity','0.6');
-	$('.ico_a').hover(function(){
-		$(this).fadeTo(200,0.9);
-		if($(this).hasClass('ppt')){
-			$('#ewm').fadeIn(500);
-		}
-	},function(){
-		$(this).fadeTo(200,0.6);
-		$('#ewm').hide();
-	});
-});
-</script>
-
-<script>(function (){
-			window.clean__ = 'true';
-		})();</script></body><div></div></html>
+    <script>
+      (function (){
+  			window.clean__ = 'true';
+  		})();
+    </script>
+  </body>
+</html>
